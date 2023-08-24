@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ng-video-game-db';
+  constructor(){
+    alert('این سایت از api های خارجی استفاده میکند لطفا فیلتر شکن خود را وصل کنید')
+  }
 }
